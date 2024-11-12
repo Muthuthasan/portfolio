@@ -1,0 +1,80 @@
+.banner{
+    background-image: url(/images/wall.jpg);
+    padding: 153px 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.skill{
+    background-image: url(/images/free-photo.jpg);
+    padding: 153px 0;
+    background-size:cover;
+    background-repeat: no-repeat;   
+}
+
+.About{
+    background-image: url(/images/white.webp);
+    padding: 153px 0;
+    background-size:cover;
+    background-repeat: no-repeat;  
+}
+
+/* media query*/
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.input-control.success input{
+border-color: green;
+}
+
+.input-control.error input{
+    border-color: red;
+    }
+
+    .input-control .error{
+        color: red;
+        font-size: 14px;
+        height: 13px;
+    }
+
+/*sm*/
+
+@media (min-width: 640px){
+    .container{
+
+        min-width: 640px;
+    }
+}
+
+/*md*/
+@media (min-width: 768px){
+
+    .container{
+
+        min-width: 768px;
+    }
+}
+
+/*lg*/
+
+@media (min-width: 1024px){
+
+    .container{
+
+        min-width: 1024px;
+    }
+}
+    
+/*xl*/
+@media (min-width: 1280px){
+
+    .container{
+
+        min-width: 1280px;
+    }
+}
